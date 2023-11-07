@@ -1,0 +1,12 @@
+[08-Sep-2021 06:56:48 Africa/Douala] PHP Notice:  Undefined variable: year_id in /home/u182156984/domains/nishangsys.com/public_html/appdemo/includes/functions.php on line 122
+[08-Sep-2021 06:56:48 Africa/Douala] PHP Notice:  Undefined variable: campus in /home/u182156984/domains/nishangsys.com/public_html/appdemo/includes/functions.php on line 170
+[08-Sep-2021 06:11:49 UTC] PHP Warning:  include(includes/dbc.php): failed to open stream: No such file or directory in /home/u182156984/domains/nishangsys.com/public_html/appdemo/logout.php on line 3
+[08-Sep-2021 06:11:49 UTC] PHP Warning:  include(): Failed opening 'includes/dbc.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u182156984/domains/nishangsys.com/public_html/appdemo/logout.php on line 3
+[08-Sep-2021 06:11:49 UTC] PHP Notice:  Undefined index: user_name in /home/u182156984/domains/nishangsys.com/public_html/appdemo/logout.php on line 5
+[08-Sep-2021 06:11:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/u182156984/domains/nishangsys.com/public_html/appdemo/logout.php:21
+Stack trace:
+#0 /home/u182156984/domains/nishangsys.com/public_html/appdemo/logout.php(17): backup_tables('localhost', 'nishang', 'google1234', 'super_db')
+#1 {main}
+  thrown in /home/u182156984/domains/nishangsys.com/public_html/appdemo/logout.php on line 21
+[08-Sep-2021 06:14:02 UTC] PHP Warning:  include(includes/dbc.php): failed to open stream: No such file or directory in /home/u182156984/domains/nishangsys.com/public_html/appdemo/logout.php on line 3
+[08-Sep-2021 06:14:02 UTC] PHP Warning:  include(): Failed opening 'includes/dbc.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u182156984/domains/nishangsys.com/public_html/appdemo/logout.php on line 3
